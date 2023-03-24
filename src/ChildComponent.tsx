@@ -10,7 +10,7 @@ const ChildComponent: React.FC = () => {
   const handleClick = () => {
     setProfile((prev) => {
       return {
-        ...profile,
+        ...prev,
         name: "Anum Qudsia",
         counter: prev.counter + 1,
       };
