@@ -6,7 +6,11 @@ p {
   color: rgb(210, 205, 205);
 }
 .App {
-  
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(0, -50%);
+  background-color: grey;
   text-align: center;
 }
 
