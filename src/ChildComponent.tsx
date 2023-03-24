@@ -11,7 +11,7 @@ const ChildComponent: React.FC = () => {
     setProfile((prev) => {
       return {
         ...profile,
-        name: "Name Changed to Anum Qudsia",
+        name: "Anum Qudsia",
         counter: prev.counter + 1,
       };
     });
