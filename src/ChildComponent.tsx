@@ -4,7 +4,7 @@ import React from "react";
 import { useRecoilState, useResetRecoilState } from "recoil";
 import { profileAtom } from "./atoms";
 
-const ChildComponent: React.FC = () => {
+const ChildComponent = () => {
   const [profile, setProfile] = useRecoilState(profileAtom);
 
   const handleClick = () => {
