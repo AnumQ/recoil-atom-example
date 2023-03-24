@@ -19,7 +19,6 @@ const ChildComponent: React.FC = () => {
 
   return (
     <div>
-      <h2>Child Component</h2>
       <p>Count: {profile.counter}</p>
       <p>Name: {profile.name}</p>
       <p>Age: {profile.age}</p>
